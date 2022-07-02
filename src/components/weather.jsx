@@ -12,7 +12,7 @@ export const Weather=()=>{
         justifyContent:"center",
         width:'90vw',
         height:'auto',
-        // margin:'5vh auto',
+        margin:'5vh auto',
         boxShadow:'2px 2px 4px 4px #89CFF0',
         borderTopLeftRadius:'50px',
         borderBottomRightRadius:'50px',
