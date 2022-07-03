@@ -11,13 +11,13 @@ export const Weather=()=>{
         flexDirection:"row",
         justifyContent:"center",
         width:'90vw',
-        height:'auto',
-        margin:'5vh auto',
+        margin:'2vh auto',
         boxShadow:'2px 2px 4px 4px #89CFF0',
         borderTopLeftRadius:'50px',
         borderBottomRightRadius:'50px',
         [theme.breakpoints.up("md")]:{
-               width:'80vw'
+               width:'80vw',
+               margin:'5vh auto',
         }
 
     }))
@@ -43,7 +43,6 @@ export const Weather=()=>{
         alignItems:'center',
         padding:'1rem',
         width:'100%',
-        height:'80vh',
         [theme.breakpoints.up("md")]:{
             width:'45vw',
             padding:'2rem',
