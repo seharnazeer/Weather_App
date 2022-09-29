@@ -47,6 +47,7 @@ const Inner=styled(Box)(({theme})=>({
     alignItems:'center',
     padding:'1rem',
     width:'100%',
+    height:"80%",
     [theme.breakpoints.up("md")]:{
         width:'45vw',
         padding:'2rem',
@@ -58,6 +59,7 @@ const Styledbox=styled(Box)(({theme})=>({
     alignItems:"center",
     width:'90%',
     padding:'1rem',
+    height:"80%",
     [theme.breakpoints.up("md")]:{
         width:'45vw',
         padding:"0rem"
@@ -93,7 +95,7 @@ export const Weather=()=>{
                             const {name,data}=elem;
                             return(
                                 <>
-                            <Box key={index} sx={{display:"flex",justifyContent:"space-between",width:"80%",margin:'1rem',
+                            <Box key={index} sx={{display:"flex",justifyContent:"space-between",width:"80%",margin:'.3rem',
                            borderBottom:"1px solid #edeaea",padding:"0rem 1rem"}}>
                             <Shadow>{name}:</Shadow>
                             <Shadow>{data}</Shadow>
